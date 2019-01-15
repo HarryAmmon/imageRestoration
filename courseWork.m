@@ -24,5 +24,6 @@ figure(1);imshow(M);title('My Dum way');                                    % Sh
 
 Nresize = imresize(N,[A B]);                                                % Resives the image using values obtained from img1
 figure(2);imshow(Nresize);title('Img2 resized');                            % Show img2's new size, its been on a diet!
+imwrite(Nresize,'img2CorrectSize.jpg','jpg');
 
 
